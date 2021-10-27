@@ -3,10 +3,10 @@
   <div class="page">
     <flickity class="home-slider" :options="flickityOptions">
       <div class="home-slider__item">
-        <img src="../../public/img/Abbey/IMG_20170115_101602.jpg" />
+        <img src="public/img/Abbey/1.jpg" />
       </div>
       <div class="home-slider__item">
-        <img src="../../public/img/Abbey/IMG_20170201_142321.jpg" />
+        <img src="public/img/Abbey/2.jpg" />
       </div>
     </flickity>
   </div>
@@ -18,7 +18,7 @@ export default {
             flickityOptions: {
                 imagesLoaded: true,
                 wrapAround: true,
-                autoPlay: 2000,
+                autoPlay: 3000,
                 pauseAutoPlayOnHover: true
             }
         };

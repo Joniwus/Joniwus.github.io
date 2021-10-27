@@ -21,6 +21,11 @@
       </a>
     </div>
     <div class="navbar-link-list__item">
+      <a class="navbar-link-list__link" href="/litters">
+        Würfe
+      </a>
+    </div>
+    <div class="navbar-link-list__item">
       <a class="navbar-link-list__link" href="/about">
         Über uns
       </a>
