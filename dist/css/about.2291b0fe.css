@@ -1,0 +1,1 @@
+body,html{padding:0;margin:0;box-sizing:border-box}body{background-color:#fff}.navbar{display:flex;position:absolute;top:0;left:0;right:0;background-color:#374f2f;height:80px}.page-view{margin-top:80px}@media only screen and (max-width:767px){.navbar{height:50px}.page-view{margin-top:50px}}
