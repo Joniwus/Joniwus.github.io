@@ -7,7 +7,7 @@
     </div>
     <div class="navbar-link-list__item">
       <a class="navbar-link-list__link" href="/males">
-        Kater
+        Kastraten
       </a>
     </div>
     <div class="navbar-link-list__item">

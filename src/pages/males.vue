@@ -1,7 +1,7 @@
 <template>
   <navbar></navbar>
   <div class="page">
-    Kater
+    Kastraten
   </div>
 </template>
 <script>
