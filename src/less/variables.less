@@ -1,0 +1,50 @@
+/* Media sizes */
+@sm-min: 576px;
+@md-min: 768px;
+@lg-min: 992px;
+@xlg-min: 1200px;
+
+@xs-max: @sm-min - 1px;
+@sm-max: @md-min - 1px;
+@md-max: @lg-min - 1px;
+@lg-max: @xlg-min - 1px;
+
+/* Media queries */
+@xsmall-only: ~"only screen and (max-width: @{xs-max})";
+@small-only: ~"only screen and (min-width: @{sm-min} and max-width: @{sm-max})";
+@medium-only: ~"only screen and (min-width: @{md-min} and max-width: @{md-max})";
+@large-only: ~"only screen and (min-width: @{lg-min} and max-width: @{lg-max})";
+@xlarge-only: ~"only screen and (min-width: @{xlg-min})";
+
+@small-and-up: ~"only screen and (min-width: @{sm-min})";
+@medium-and-up: ~"only screen and (min-width: @{md-min})";
+@large-and-up: ~"only screen and (min-width: @{lg-min})";
+@xlarge-and-up: ~"only screen and (min-width: @{xlg-min})";
+
+@xsmall-and-down: @xsmall-only;
+@small-and-down: ~"only screen and (max-width: @{sm-max})";
+@medium-and-down: ~"only screen and (max-width: @{md-max})";
+@large-and-down: ~"only screen and (max-width: @{lg-max})";
+
+@mobile: @small-and-down;
+@mobile-portait: @xsmall-only;
+@mobile-landscape: @small-only;
+@tablet: @medium-only;
+@desktop: @large-and-up;
+
+/* Colors */
+@color-primary-100: #4a6741;
+@color-primary-80: #3f5a36;
+@color-primary-60: #374f2f;
+@color-primary-40: #304529;
+@color-primary-20: #22311d;
+
+@color-secondary-100: #fff;
+@color-secondary-80: #ddd;
+@color-secondary-60: #bbb;
+@color-secondary-40: #888;
+@color-secondary-20: #555;
+
+/* CONSTANTS */
+@header-height: 60px;
+@header-height-mobile: 100px;
