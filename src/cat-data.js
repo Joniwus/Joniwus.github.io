@@ -9,14 +9,20 @@ export const cats = [
     {
         type: types.female,
         name: 'Abbey',
-        info: {
-            birthdate: '01.01.1997',
-            fur: 'transparent',
-            cunt: 'yes',
-            cock: '30cm',
-            pis: '5l',
-            jews: '2'
-        },
+        info: [
+            {
+                title: 'Geburtsdatum',
+                value: '01.01.1997'
+            },
+            {
+                title: 'Fell',
+                value: 'Grau'
+            },
+            {
+                title: 'Augenfarbe',
+                value: 'Grün'
+            }
+        ],
         image: {
             folder: 'Abbey',
             folderCount: 8,

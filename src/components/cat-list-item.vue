@@ -16,12 +16,12 @@
     </div>
     <div class="cat-list-item__body">
       <template v-if="!collapsed">
-        <div class="cat-list-item-info-block" v-for="(info, index) in infoEntries" :key="index">
+        <div class="cat-list-item-info-block" v-for="(infoEntry, index) in infoEntries" :key="index">
           <h3 class="cat-list-item-info-block__key">
-            {{ info[0] }}
+            {{ infoEntry.title }}
           </h3>
           <p class="cat-list-item-info-block__value">
-            {{ info[1] }}
+            {{ infoEntry.value }}
           </p>
         </div>
       </template>
@@ -50,7 +50,7 @@ export default {
     },
     computed: {
         infoEntries () {
-            return Object.entries(this.item.info);
+            return this.item.info;
         },
         images () {
             const images = [];
