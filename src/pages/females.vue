@@ -1,9 +1,11 @@
 <template>
   <navbar></navbar>
   <div class="page">
-    Katzen
-
-    <cat-list-item v-for="(item, index) in femaleCats" :key="index" :item="item"></cat-list-item>
+    <div class="container">
+      <div class="mt-1">
+        <cat-list-item v-for="(item, index) in femaleCats" :key="index" :item="item"></cat-list-item>
+      </div>
+    </div>
   </div>
 </template>
 <script>
