@@ -1,0 +1,22 @@
+/* Fade */
+.fade-enter-active, .fade-leave-active {
+    transition: opacity @transition-duration ease-in-out;
+    opacity: 1;
+}
+
+.fade-enter, .fade-leave-to {
+    opacity: 0;
+}
+
+/* Collapse */
+.collapse-enter-active, .collapse-leave-active {
+    transition: max-height @transition-duration ease-in-out;
+}
+
+.collapse-enter-to, .collapse-leave-from {
+    max-height: 500px;
+}
+
+.collapse-enter-from, .collapse-leave-to {
+    max-height: 0;
+}

@@ -1,0 +1,71 @@
+.build-margins(@max-margin);
+.build-paddings(@max-padding);
+
+/* Factories */
+.build-margins(@max-size, @i: 0) when (@i =< @max-size) {
+    .m-@{i} {
+        margin: ~"@{i}rem";
+    }
+
+    .mtb-@{i} {
+        margin-top: ~"@{i}rem";
+        margin-bottom: ~"@{i}rem";
+    }
+
+    .mt-@{i} {
+        margin-top: ~"@{i}rem";
+    }
+
+    .mb-@{i} {
+        margin-bottom: ~"@{i}rem";
+    }
+
+    .mrl-@{i} {
+        margin-right: ~"@{i}rem";
+        margin-left: ~"@{i}rem";
+    }
+
+    .mr-@{i} {
+        margin-right: ~"@{i}rem";
+    }
+
+    .ml-@{i} {
+        margin-left: ~"@{i}rem";
+    }
+
+    .build-margins(@max-size, @i + 1);
+}
+
+.build-paddings(@max-size, @i: 0) when (@i =< @max-size) {
+    .p-@{i} {
+        padding: ~"@{i}rem";
+    }
+
+    .ptb-@{i} {
+        padding-top: ~"@{i}rem";
+        padding-bottom: ~"@{i}rem";
+    }
+
+    .pt-@{i} {
+        padding-top: ~"@{i}rem";
+    }
+
+    .pb-@{i} {
+        padding-bottom: ~"@{i}rem";
+    }
+
+    .prl-@{i} {
+        padding-right: ~"@{i}rem";
+        padding-left: ~"@{i}rem";
+    }
+
+    .pr-@{i} {
+        padding-right: ~"@{i}rem";
+    }
+
+    .pl-@{i} {
+        padding-left: ~"@{i}rem";
+    }
+
+    .build-paddings(@max-size, @i + 1);
+}
