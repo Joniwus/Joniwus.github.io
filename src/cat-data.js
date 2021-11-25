@@ -7,21 +7,18 @@ export const types = {
 
 export const cats = [
     {
-        type: types.female,
-        name: 'Abbey',
+        type: types.litter,
+        name: 'Abby',
         info: [
             {
                 title: 'Geburtsdatum',
-                value: '01.01.1997'
+                value: '28.05.2018'
             },
             {
-                title: 'Fell',
-                value: 'Grau'
+                title: 'Fellfarbe',
+                value: 'amber tabby cl white'
             },
-            {
-                title: 'Augenfarbe',
-                value: 'Grün'
-            }
+
         ],
         image: {
             folder: 'Abbey',
@@ -30,4 +27,25 @@ export const cats = [
         },
         description: 'Den Vaddah finden sie <a href="https://google.de">hier</a>'
     }
+     {
+            type: types.females,
+            name: 'Casey vom Ahorngarten',
+            info: [
+                {
+                    title: 'Geburtsdatum',
+                    value: '02.04.2017'
+                },
+                {
+                    title: 'Fellfarbe',
+                    value: 'blue tabby mc white'
+                },
+
+            ],
+            image: {
+                folder: 'Casey',
+                folderCount: 12,
+                files: []
+            },
+            description: 'Eltern: Benji vom Quellmoor, Askari vom Ahorngarten <a href="https://google.de">hier</a>'
+        }
 ];
