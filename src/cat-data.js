@@ -16,7 +16,7 @@ export const cats = [
             },
             {
                 title: 'Fellfarbe',
-                value: 'amber tabby cl white'
+                value: 'red silver cl tabby'
             },
 
         ],
@@ -25,9 +25,10 @@ export const cats = [
             folderCount: 8,
             files: []
         },
-        description: 'Den Vaddah finden sie <a href="https://google.de">hier</a>'
+        description: 'Eltern: Belminis Stormrider, Fjellbekks Arizona'
     }
-     {
+
+    {
             type: types.females,
             name: 'Casey vom Ahorngarten',
             info: [
@@ -39,6 +40,10 @@ export const cats = [
                     title: 'Fellfarbe',
                     value: 'blue tabby mc white'
                 },
+                {
+                    title: 'Stammbaum'
+                    value: '<a href=https://www.pawpeds.com/db/?a=p&id=1440868&g=4&p=nfo&o=elastic> Stammbaum </a>'
+                },
 
             ],
             image: {
@@ -46,6 +51,136 @@ export const cats = [
                 folderCount: 12,
                 files: []
             },
-            description: 'Eltern: Benji vom Quellmoor, Askari vom Ahorngarten <a href="https://google.de">hier</a>'
+            description: 'Eltern: Benji vom Quellmoor, Askari vom Ahorngarten. Pkdef: n/n GSD4 IV: frei HCM Schall: 26.10.18 und 22.04.21 bei Dr. Tobias Hannover. HCM normal'
+     }
+
+     {
+           type: types.females,
+           name: 'Weserfjord Cherry',
+           info: [
+               {
+                   title: 'Geburtsdatum',
+                   value: '30.07.2019'
+               },
+               {
+                   title: 'Fellfarbe',
+                   value: 'amber tabby cl white'
+               },
+               {
+                   title: 'Stammbaum'
+                   value: '<a https://www.pawpeds.com/db/?a=p&id=1577447&g=4&p=nfo&o=elastic> Stammbaum </a>'
+               },
+
+           ],
+           image: {
+               folder: 'Cherry',
+               folderCount: 7,
+               files: []
+           },
+           description: 'Eltern: Keld av Friheten, Casey vom Ahorngarten. Pkdef: n/n GSD4 IV: frei über die Eltern HCM Schall: Juli 2021 bei Dr. Tobias Hannover. HCM normal'
+    }
+
+          {
+               type: types.females,
+               name: 'Fiona vom Ahorngarten',
+               info: [
+                   {
+                       title: 'Geburtsdatum',
+                       value: '10.03.2021'
+                   },
+                   {
+                       title: 'Fellfarbe',
+                       value: 'black silver tortie mc white'
+                   },
+                   {
+                       title: 'Stammbaum'
+                       value: '<a https://www.pawpeds.com/db/?a=p&ids=3:1440870;2:1473580&g=4&p=nfo&o=elastic> Stammbaum </a>'
+                   },
+
+               ],
+               image: {
+                   folder: 'Fiona',
+                   folderCount: 7,
+                   files: []
+               },
+               description: 'Eltern: Urmel von den Wölfen, Askari vom Ahorngarten. Pkdef: n/n GSD4 IV: frei über die Eltern HCM Schall:folgt im entsprechendem Alter'
+                     }
+
+                     {
+               type: types.litter,
+               name: 'Keld AV Friheten',
+               info: [
+                   {
+                       title: 'Geburtsdatum',
+                       value: '22.06.2018'
+                   },
+                   {
+                       title: 'Fellfarbe',
+                       value: 'amber tabby cl white'
+                   },
+                   {
+                       title: 'Stammbaum'
+                       value: '<a https://www.pawpeds.com/db/?a=p&ids=3:1456149;2:1473580&g=4&p=nfo&o=elastic> Stammbaum </a>'
+                   },
+
+               ],
+               image: {
+                   folder: 'Keld',
+                   folderCount: 9,
+                   files: []
+               },
+               description: ''
         }
-];
+
+        {
+               type: types.litter,
+               name: 'Weserfjord Bärje(Schlappi)',
+               info: [
+                   {
+                       title: 'Geburtsdatum',
+                       value: '14.07.2017'
+                   },
+                   {
+                       title: 'Fellfarbe',
+                       value: 'blue silver cl tabby'
+                   },
+                   {
+                       title: 'Stammbaum'
+                       value: '<a https://www.pawpeds.com/db/?a=p&ids=3:1456149;2:1473580&g=4&p=nfo&o=elastic> Stammbaum </a>'
+                   },
+
+               ],
+               image: {
+                   folder: 'Barje',
+                   folderCount: 12,
+                   files: []
+               },
+               description: 'Eltern: Ups vom Wunderstern, Fjelbekks Arizona'
+                }
+                {
+                     type: types.females,
+                     name: 'Fjellbekks Arizona',
+                     info: [
+                         {
+                             title: 'Geburtsdatum',
+                             value: '25.07.2014'
+                         },
+                         {
+                             title: 'Fellfarbe',
+                             value: 'brown cl torbie'
+                         },
+                         {
+                             title: 'Stammbaum'
+                             value: '<a https://www.pawpeds.com/db/?a=p&ids=3:1440870;2:1473580&g=4&p=nfo&o=elastic> Stammbaum </a>'
+                         },
+
+                     ],
+                     image: {
+                         folder: 'Arizona',
+                         folderCount: 7,
+                         files: []
+                     },
+                     description: 'Eltern: Beliminis Zappa, Fjellbekks Lucy'
+                           }
+
+]
