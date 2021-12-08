@@ -12,8 +12,7 @@
             <h3 class="cat-list-item-info-block__key">
               {{ infoEntry.title }}
             </h3>
-            <p class="cat-list-item-info-block__value">
-              {{ infoEntry.value }}
+            <p class="cat-list-item-info-block__value" v-html="infoEntry.value">
             </p>
           </div>
         </div>
@@ -63,7 +62,7 @@ export default {
             const images = [];
 
             for (let i = 1; i <= this.item.image.folderCount; i++) {
-                images.push(`img/${this.item.image.folder}/${this.item.name} (${i}).jpg`);
+                images.push(`img/${this.item.image.folder}/${this.item.image.folder} (${i}).jpg`);
             }
 
             images.push(...this.item.image.files);
@@ -100,8 +99,7 @@ export default {
 .cat-list-item {
   display: flex;
   flex-wrap: wrap;
-  background: @color-primary-100;
-  box-shadow: 0 0 10px 0 black;
+  background: @color-secondary-60;
 }
 
 .cat-list-item__head {
@@ -153,7 +151,7 @@ export default {
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  background: @color-secondary-80;
+  background: @color-secondary-100;
   border: none;
   cursor: pointer;
   width: 100%;

@@ -1,15 +1,17 @@
 <template>
-  <navbar></navbar>
-  <div class="page">
-    <flickity class="home-slider" :options="flickityOptions">
-      <div class="home-slider__item">
-        <img src="public/img/Abbey/1.jpg" />
-      </div>
-      <div class="home-slider__item">
-        <img src="public/img/Abbey/2.jpg" />
-      </div>
-    </flickity>
-  </div>
+    <navbar></navbar>
+    <div class="page">
+        <div class="container">
+            <flickity class="home-slider" :options="flickityOptions">
+                <div class="home-slider__item">
+                    <img src="/img/Abbey/Abbey (1).jpg" />
+                </div>
+                <div class="home-slider__item">
+                    <img src="/img/Abbey/Abbey (2).jpg" />
+                </div>
+            </flickity>
+        </div>
+    </div>
 </template>
 <script>
 export default {

@@ -1,12 +1,10 @@
 <template>
-  <navbar></navbar>
-  <div class="page">
-    <div class="container">
-      <div class="mt-1">
-        <cat-list-item v-for="(item, index) in femaleCats" :key="index" :item="item"></cat-list-item>
-      </div>
+    <navbar></navbar>
+    <div class="page">
+        <div class="container prl-2 pt-2 pb-1">
+            <cat-list-item v-for="(item, index) in femaleCats" :key="index" :item="item"></cat-list-item>
+        </div>
     </div>
-  </div>
 </template>
 <script>
 import { types, cats } from '../cat-data';

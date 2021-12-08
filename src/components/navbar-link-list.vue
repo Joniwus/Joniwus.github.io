@@ -38,10 +38,9 @@
   </component>
 </template>
 <script>
-import windowSizeMixin from '../mixins/windowSizeMixin';
+import { mapGetters } from 'vuex';
 
 export default {
-    mixins: [windowSizeMixin],
     data () {
         return {
             flickityOptions: {
@@ -53,6 +52,7 @@ export default {
         };
     },
     computed: {
+        ...mapGetters(['isMobile']),
         wrapperComponent () {
             return this.isMobile ? 'flickity' : 'div';
         }
@@ -61,7 +61,7 @@ export default {
 </script>
 <style scoped lang="less">
 .navbar-link-list {
-  background: @color-primary-40;
+  background: @color-secondary-60;
   width: 100%;
 
   &__item {

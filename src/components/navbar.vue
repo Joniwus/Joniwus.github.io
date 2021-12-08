@@ -14,28 +14,29 @@ export default {
 </script>
 <style lang="less">
 .navbar {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: @color-primary-20;
-  height: @header-height-mobile;
-  z-index: 100;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: @color-secondary-60;
+    height: @header-height-mobile;
+    z-index: 100;
+    box-shadow: 0 0 2px 0 black;
 
-  @media @medium-and-up {
-    background-color: @color-primary-40;
-    height: @header-height;
-    flex-direction: row;
-  }
+    @media @medium-and-up {
+        background-color: @color-secondary-60;
+        height: @header-height;
+        flex-direction: row;
+    }
 }
 
 .navbar-logo {
   display: flex;
   align-items: center;
   padding: 0 1rem;
-  color: white;
+  color: @color-primary-100;
   height: 100%;
 
   &__text {
