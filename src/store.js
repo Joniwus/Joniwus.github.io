@@ -14,7 +14,7 @@ export const store = createStore({
     },
     actions: {
         updateIsMobile ({ commit, state }) {
-            commit('setIsMobile', window.innerWidth < state.mobileTreshold);
+            commit('setIsMobile', window.innerWidth < state.mobileThreshold);
         }
     },
     getters: {
@@ -25,3 +25,5 @@ export const store = createStore({
 window.addEventListener('resize', () => {
     store.dispatch('updateIsMobile');
 });
+
+store.dispatch('updateIsMobile');
