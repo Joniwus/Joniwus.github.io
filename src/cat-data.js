@@ -1,13 +1,12 @@
 export const types = {
     male: 'male',
     female: 'female',
-    kitten: 'kitten',
     litter: 'litter'
 };
 
 export const cats = [
     {
-        type: types.litter,
+        type: types.male,
         name: 'Abby',
         info: [
             {
@@ -48,7 +47,7 @@ export const cats = [
             folderCount: 12,
             files: []
         },
-        description: 'Eltern: Benji vom Quellmoor, Askari vom Ahorngarten. Pkdef: n/n GSD4 IV: frei HCM Schall: 26.10.18 und 22.04.21 bei Dr. Tobias Hannover. HCM normal'
+        description: 'Eltern: Benji vom Quellmoor, Askari vom Ahorngarten.<br/> Pkdef: n/n GSD4 IV: frei <br/> HCM Schall: 26.10.18 und 22.04.21 bei Dr. Tobias Hannover.<br/> HCM normal'
     },
     {
         type: types.female,
@@ -99,7 +98,7 @@ export const cats = [
         description: 'Eltern: Urmel von den Wölfen, Askari vom Ahorngarten. Pkdef: n/n GSD4 IV: frei über die Eltern HCM Schall:folgt im entsprechendem Alter'
     },
     {
-        type: types.litter,
+        type: types.male,
         name: 'Keld AV Friheten',
         info: [
             {
@@ -123,7 +122,7 @@ export const cats = [
         description: ''
     },
     {
-        type: types.litter,
+        type: types.male,
         name: 'Weserfjord Bärje(Schlappi)',
         info: [
             {
@@ -147,7 +146,7 @@ export const cats = [
         description: 'Eltern: Ups vom Wunderstern, Fjelbekks Arizona'
     },
     {
-        type: types.litter,
+        type: types.male,
         name: 'Fjellbekks Arizona',
         info: [
             {
@@ -171,75 +170,75 @@ export const cats = [
         description: 'Eltern: Beliminis Zappa, Fjellbekks Lucy'
     },
     {
-            type: types.kitten,
-            name: 'Weserfjords Elaine',
-            info: [
-                {
-                    title: 'Geburtsdatum',
-                    value: 'Platzhalter'
-                },
-                {
-                    title: 'Fellfarbe',
-                    value: 'Platzhalter'
-                },
-                {
-                    title: 'Stammbaum',
-                    value: '<Platzhalter </a>'
-                }
-            ],
-            image: {
-                folder: 'Elaine',
-                folderCount: 6,
-                files: []
+        type: types.litter,
+        name: 'Weserfjords Elaine',
+        info: [
+            {
+                title: 'Geburtsdatum',
+                value: 'Platzhalter'
             },
-            description: 'Eltern: Weserfjord Cherry, '
+            {
+                title: 'Fellfarbe',
+                value: 'Platzhalter'
+            },
+            {
+                title: 'Stammbaum',
+                value: '<a>Platzhalter </a>'
+            }
+        ],
+        image: {
+            folder: 'Elaine',
+            folderCount: 6,
+            files: []
+        },
+        description: 'Eltern: Weserfjord Cherry, '
     },
     {
-            type: types.kitten,
-            name: 'Weserfjords Emil',
-            info: [
-                {
-                    title: 'Geburtsdatum',
-                    value: 'Platzhalter'
-                },
-                {
-                    title: 'Fellfarbe',
-                    value: 'Platzhalter'
-                },
-                {
-                    title: 'Stammbaum',
-                    value: '<Platzhalter </a>'
-                }
-            ],
-            image: {
-                folder: 'Emil',
-                folderCount: 6,
-                files: []
+        type: types.litter,
+        name: 'Weserfjords Emil',
+        info: [
+            {
+                title: 'Geburtsdatum',
+                value: 'Platzhalter'
             },
-            description: 'Eltern: Weserfjord Cherry, '
+            {
+                title: 'Fellfarbe',
+                value: 'Platzhalter'
+            },
+            {
+                title: 'Stammbaum',
+                value: '<Platzhalter </a>'
+            }
+        ],
+        image: {
+            folder: 'Emil',
+            folderCount: 6,
+            files: []
+        },
+        description: 'Eltern: Weserfjord Cherry, '
     },
     {
-            type: types.kitten,
-            name: 'Weserfjords Erwin',
-            info: [
-                {
-                    title: 'Geburtsdatum',
-                    value: 'Platzhalter'
-                },
-                {
-                    title: 'Fellfarbe',
-                    value: 'Platzhalter'
-                },
-                {
-                    title: 'Stammbaum',
-                    value: '<Platzhalter </a>'
-                }
-            ],
-            image: {
-                folder: 'Erwin',
-                folderCount: 7,
-                files: []
+        type: types.litter,
+        name: 'Weserfjords Erwin',
+        info: [
+            {
+                title: 'Geburtsdatum',
+                value: 'Platzhalter'
             },
-            description: 'Eltern: Weserfjord Cherry, '
-        }
+            {
+                title: 'Fellfarbe',
+                value: 'Platzhalter'
+            },
+            {
+                title: 'Stammbaum',
+                value: '<Platzhalter </a>'
+            }
+        ],
+        image: {
+            folder: 'Erwin',
+            folderCount: 7,
+            files: []
+        },
+        description: 'Eltern: Weserfjord Cherry, '
+    }
 ];

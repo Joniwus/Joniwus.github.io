@@ -12,10 +12,12 @@
     margin: 0 auto;
     max-width: 1280px;
     width: 100%;
-    background: @color-secondary-80;
 
     @media @large-only {
         max-width: 1000px;
     }
 }
 
+.flickity-enabled.is-fullscreen {
+    z-index: 999;
+}

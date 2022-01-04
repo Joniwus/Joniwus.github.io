@@ -9,14 +9,23 @@ html, body {
 }
 
 body {
-  background-color: @color-secondary-60;
+  background: @color-primary-100;
 }
 
 button {
   color: white;
 }
 
+.flickity-button {
+  background: transparent !important;
+
+  & > .flickity-button-icon {
+    fill: white;
+  }
+}
+
 a {
-  color: @color-primary-100;
+  color: @color-secondary-100;
+  font-style: italic;
   text-decoration: none;
 }

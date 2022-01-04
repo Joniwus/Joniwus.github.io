@@ -14,21 +14,13 @@ module.exports = {
             entry: 'src/main-page-females.js',
             title: 'Weserfjords - Katzen'
         },
-        kittens: {
-            entry: 'src/main-page-kittens.js',
-            title: 'Weserfjords - Kitten'
-        },
         litters: {
             entry: 'src/main-page-litters.js',
             title: 'Weserfjords - Würfe'
         },
-        contact: {
-            entry: 'src/main-page-contact.js',
-            title: 'Weserfjords - Kontakt'
-        },
         about: {
             entry: 'src/main-page-about.js',
-            title: 'Weserfjords - Über uns'
+            title: 'Weserfjords - Über uns / Kontakt'
         }
     },
     pluginOptions: {

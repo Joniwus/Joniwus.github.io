@@ -1,5 +1,5 @@
 <template>
-  <div class="cat-list-item mb-2" :class="{ 'cat-list-item--collapsed': collapsed }">
+  <div class="cat-list-item" :class="{ 'cat-list-item--collapsed': collapsed }">
     <div class="cat-list-item__head p-1">
       <h2 class="cat-list-item__title">
         {{ item.name }}
@@ -99,7 +99,8 @@ export default {
 .cat-list-item {
   display: flex;
   flex-wrap: wrap;
-  background: @color-secondary-60;
+  background: @color-primary-80;
+  margin-bottom: 2rem;
 }
 
 .cat-list-item__head {
@@ -136,9 +137,14 @@ export default {
   height: 200px;
   transition: height @transition-duration ease-in-out;
 
+  .flickity-enabled.is-fullscreen .flickity-viewport & {
+      height: 100%;
+  }
+
   & > img {
     max-width: 100%;
     max-height: 100%;
+    height: 100%;
   }
 }
 
@@ -152,6 +158,7 @@ export default {
   align-items: center;
   font-weight: bold;
   background: @color-secondary-100;
+  color: black;
   border: none;
   cursor: pointer;
   width: 100%;

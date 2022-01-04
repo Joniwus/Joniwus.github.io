@@ -1,7 +1,7 @@
 <template>
     <navbar></navbar>
     <div class="page">
-        <div class="container prl-2 pt-2 pb-1">
+        <div class="container prl-sm-2 pt-sm-2 pb-sm-1">
             <cat-list-item v-for="(item, index) in femaleCats" :key="index" :item="item"></cat-list-item>
         </div>
     </div>

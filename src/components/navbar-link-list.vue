@@ -16,23 +16,13 @@
       </a>
     </div>
     <div class="navbar-link-list__item">
-      <a class="navbar-link-list__link" href="/kittens">
-        Kitten
-      </a>
-    </div>
-    <div class="navbar-link-list__item">
       <a class="navbar-link-list__link" href="/litters">
         Würfe
       </a>
     </div>
     <div class="navbar-link-list__item">
       <a class="navbar-link-list__link" href="/about">
-        Über uns
-      </a>
-    </div>
-    <div class="navbar-link-list__item">
-      <a class="navbar-link-list__link" href="/contact">
-        Kontakt
+        Über uns / Kontakt
       </a>
     </div>
   </component>
@@ -61,7 +51,7 @@ export default {
 </script>
 <style scoped lang="less">
 .navbar-link-list {
-  background: @color-secondary-60;
+  background: @color-primary-100;
   width: 100%;
 
   &__item {
@@ -80,9 +70,9 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-
     padding: 0.3rem 0.6rem;
     color: white;
+    font-style: normal;
     text-decoration: none;
     font-size: 1rem;
     white-space: nowrap;

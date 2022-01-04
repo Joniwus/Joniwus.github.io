@@ -1,75 +1,94 @@
-.build-margins(@max-margin);
-.build-paddings(@max-padding);
+.build-margins("", @max-margin);
+.build-paddings("", @max-padding);
+
+@media @small-and-up {
+    .build-margins("-sm", @max-margin);
+    .build-paddings("-sm", @max-padding);
+}
+
+@media @medium-and-up {
+    .build-margins("-md", @max-margin);
+    .build-paddings("-md", @max-padding);
+}
+
+@media @large-and-up {
+    .build-margins("-lg", @max-margin);
+    .build-paddings("-lg", @max-padding);
+}
 
 /* Factories */
-.build-margins(@max-size, @i: 0) when (@i =< @max-size) {
-    .m-@{i} {
+.build-margins(@display, @max-size, @i: 0) when (@i =< @max-size) {
+    @name: ~"@{display}-@{i}";
+
+    .m@{name} {
         margin: ~"@{i}rem";
     }
 
-    .mtb-@{i},
-    .mbt-@{i} {
+    .mtb@{name},
+    .mbt@{name} {
         margin-top: ~"@{i}rem";
         margin-bottom: ~"@{i}rem";
     }
 
-    .mt-@{i} {
+    .mt@{name} {
         margin-top: ~"@{i}rem";
     }
 
-    .mb-@{i} {
+    .mb@{name} {
         margin-bottom: ~"@{i}rem";
     }
 
-    .mrl-@{i},
-    .mlr-@{i} {
+    .mrl@{name},
+    .mlr@{name} {
         margin-right: ~"@{i}rem";
         margin-left: ~"@{i}rem";
     }
 
-    .mr-@{i} {
+    .mr@{name} {
         margin-right: ~"@{i}rem";
     }
 
-    .ml-@{i} {
+    .ml@{name} {
         margin-left: ~"@{i}rem";
     }
 
-    .build-margins(@max-size, @i + 1);
+    .build-margins(@display, @max-size, @i + 1);
 }
 
-.build-paddings(@max-size, @i: 0) when (@i =< @max-size) {
-    .p-@{i} {
+.build-paddings(@display, @max-size, @i: 0) when (@i =< @max-size) {
+    @name: ~"@{display}-@{i}";
+
+    .p@{name} {
         padding: ~"@{i}rem";
     }
 
-    .ptb-@{i},
-    .pbt-@{i} {
+    .ptb@{name},
+    .pbt@{name} {
         padding-top: ~"@{i}rem";
         padding-bottom: ~"@{i}rem";
     }
 
-    .pt-@{i} {
+    .pt@{name} {
         padding-top: ~"@{i}rem";
     }
 
-    .pb-@{i} {
+    .pb@{name} {
         padding-bottom: ~"@{i}rem";
     }
 
-    .prl-@{i},
-    .plr-@{i} {
+    .prl@{name},
+    .plr@{name} {
         padding-right: ~"@{i}rem";
         padding-left: ~"@{i}rem";
     }
 
-    .pr-@{i} {
+    .pr@{name} {
         padding-right: ~"@{i}rem";
     }
 
-    .pl-@{i} {
+    .pl@{name} {
         padding-left: ~"@{i}rem";
     }
 
-    .build-paddings(@max-size, @i + 1);
+    .build-paddings(@display, @max-size, @i + 1);
 }
