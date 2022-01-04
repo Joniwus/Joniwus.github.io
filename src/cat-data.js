@@ -171,7 +171,7 @@ export const cats = [
         description: 'Eltern: Beliminis Zappa, Fjellbekks Lucy'
     },
     {
-            type: types.female,
+            type: types.kitten,
             name: 'Weserfjords Elaine',
             info: [
                 {
@@ -195,7 +195,7 @@ export const cats = [
             description: 'Eltern: Weserfjord Cherry, '
     },
     {
-            type: types.male,
+            type: types.kitten,
             name: 'Weserfjords Emil',
             info: [
                 {
@@ -219,7 +219,7 @@ export const cats = [
             description: 'Eltern: Weserfjord Cherry, '
     },
     {
-            type: types.male,
+            type: types.kitten,
             name: 'Weserfjords Erwin',
             info: [
                 {
