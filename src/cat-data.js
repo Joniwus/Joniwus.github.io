@@ -147,7 +147,7 @@ export const cats = [
         description: 'Eltern: Ups vom Wunderstern, Fjelbekks Arizona'
     },
     {
-        type: types.female,
+        type: types.litter,
         name: 'Fjellbekks Arizona',
         info: [
             {
@@ -165,9 +165,81 @@ export const cats = [
         ],
         image: {
             folder: 'Arizona',
-            folderCount: 7,
+            folderCount: 9,
             files: []
         },
         description: 'Eltern: Beliminis Zappa, Fjellbekks Lucy'
-    }
+    },
+    {
+            type: types.female,
+            name: 'Weserfjords Elaine',
+            info: [
+                {
+                    title: 'Geburtsdatum',
+                    value: 'Platzhalter'
+                },
+                {
+                    title: 'Fellfarbe',
+                    value: 'Platzhalter'
+                },
+                {
+                    title: 'Stammbaum',
+                    value: '<Platzhalter </a>'
+                }
+            ],
+            image: {
+                folder: 'Elaine',
+                folderCount: 6,
+                files: []
+            },
+            description: 'Eltern: Weserfjord Cherry, '
+    },
+    {
+            type: types.male,
+            name: 'Weserfjords Emil',
+            info: [
+                {
+                    title: 'Geburtsdatum',
+                    value: 'Platzhalter'
+                },
+                {
+                    title: 'Fellfarbe',
+                    value: 'Platzhalter'
+                },
+                {
+                    title: 'Stammbaum',
+                    value: '<Platzhalter </a>'
+                }
+            ],
+            image: {
+                folder: 'Emil',
+                folderCount: 6,
+                files: []
+            },
+            description: 'Eltern: Weserfjord Cherry, '
+    },
+    {
+            type: types.male,
+            name: 'Weserfjords Erwin',
+            info: [
+                {
+                    title: 'Geburtsdatum',
+                    value: 'Platzhalter'
+                },
+                {
+                    title: 'Fellfarbe',
+                    value: 'Platzhalter'
+                },
+                {
+                    title: 'Stammbaum',
+                    value: '<Platzhalter </a>'
+                }
+            ],
+            image: {
+                folder: 'Erwin',
+                folderCount: 7,
+                files: []
+            },
+            description: 'Eltern: Weserfjord Cherry, '
+        }
 ];
