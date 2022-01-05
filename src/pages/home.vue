@@ -2,14 +2,16 @@
     <navbar></navbar>
     <div class="page">
         <div class="container">
+        <h1> Willkommen auf der Seite der Weserfjords </h1>
+        <h2> Wir haben neue Kitten im Haus </h2>
             <flickity class="home-slider" :options="flickityOptions">
                 <div class="home-slider__item">
-                    <img src="/img/Abbey/Abbey (1).jpg" />
-                </div>
-                <div class="home-slider__item">
-                    <img src="/img/Abbey/Abbey (2).jpg" />
+                    <img src="/img/E_Wurf/E_Wurf.jpg" />
                 </div>
             </flickity>
+            <p> Das sind von Links nach Rechts: Elaine, Erwin, Emil </p>
+            <p> Mit einem <a href="/litters"> Klick hier</a> gelangen Sie zu mehr Bildern </p>
+
         </div>
     </div>
 </template>

@@ -71,7 +71,7 @@ export const cats = [
             folderCount: 7,
             files: []
         },
-        description: 'Eltern: Keld av Friheten, Casey vom Ahorngarten. Pkdef: n/n GSD4 IV: frei über die Eltern HCM Schall: Juli 2021 bei Dr. Tobias Hannover. HCM normal'
+        description: 'Eltern: Keld av Friheten, Casey vom Ahorngarten.<br/> Pkdef: n/n<br/> GSD4 IV: frei über die Eltern<br/> HCM Schall: Juli 2021 bei Dr. Tobias Hannover.<br/> HCM normal'
     },
     {
         type: types.female,
@@ -95,7 +95,7 @@ export const cats = [
             folderCount: 7,
             files: []
         },
-        description: 'Eltern: Urmel von den Wölfen, Askari vom Ahorngarten. Pkdef: n/n GSD4 IV: frei über die Eltern HCM Schall:folgt im entsprechendem Alter'
+        description: 'Eltern: Urmel von den Wölfen, Askari vom Ahorngarten.<br/> Pkdef: n/n<br/> GSD4 IV: frei über die Eltern<br/> HCM Schall:folgt im entsprechendem Alter'
     },
     {
         type: types.male,
