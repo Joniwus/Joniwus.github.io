@@ -1,9 +1,9 @@
 <template>
     <navbar></navbar>
     <div class="page">
-        <div class="container">
-        <h1> Willkommen auf der Seite der Weserfjords </h1>
-        <h2> Wir haben neue Kitten im Haus </h2>
+        <div class="container pt-sm-2">
+            <h1> Willkommen auf der Seite der Weserfjords </h1>
+            <h2> Wir haben neue Kitten im Haus </h2>
             <flickity class="home-slider" :options="flickityOptions">
                 <div class="home-slider__item">
                     <img src="/img/E_Wurf/E_Wurf.jpg" />
