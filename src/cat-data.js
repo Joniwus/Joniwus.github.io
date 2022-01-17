@@ -171,67 +171,19 @@ export const cats = [
     },
     {
         type: types.litter,
-        name: 'Weserfjords Elaine',
-        info: [
-            {
-                title: 'Geburtsdatum',
-                value: 'Platzhalter'
-            },
-            {
-                title: 'Fellfarbe',
-                value: 'Platzhalter'
-            },
-            {
-                title: 'Stammbaum',
-                value: '<a>Platzhalter </a>'
-            }
-        ],
-        image: {
-            folder: 'Elaine',
-            folderCount: 6,
-            files: []
-        },
-        description: 'Eltern: Weserfjord Cherry, '
-    },
-    {
-        type: types.litter,
-        name: 'Weserfjords Emil',
-        info: [
-            {
-                title: 'Geburtsdatum',
-                value: 'Platzhalter'
-            },
-            {
-                title: 'Fellfarbe',
-                value: 'Platzhalter'
-            },
-            {
-                title: 'Stammbaum',
-                value: '<Platzhalter </a>'
-            }
-        ],
-        image: {
-            folder: 'Emil',
-            folderCount: 6,
-            files: []
-        },
-        description: 'Eltern: Weserfjord Cherry, '
-    },
-    {
-        type: types.litter,
         name: 'Weserfjords Erwin',
         info: [
             {
                 title: 'Geburtsdatum',
-                value: 'Platzhalter'
+                value: '01.11.2021'
             },
             {
                 title: 'Fellfarbe',
-                value: 'Platzhalter'
+                value: 'black white, Amberträger'
             },
             {
                 title: 'Stammbaum',
-                value: '<Platzhalter </a>'
+                value: '<a> https://www.pawpeds.com/db/?a=p&ids=3:1577447;2:1393328&g=4&p=nfo&o=elastic </a>'
             }
         ],
         image: {
@@ -239,6 +191,78 @@ export const cats = [
             folderCount: 7,
             files: []
         },
-        description: 'Eltern: Weserfjord Cherry, '
+        description: 'Eltern: Weserfjord Cherry, Polyxena´s Ungaro Gold '
+    },
+    {
+        type: types.litter,
+        name: 'Weserfjords Elaine',
+        info: [
+            {
+                title: 'Geburtsdatum',
+                value: '01.11.2021'
+            },
+            {
+                title: 'Fellfarbe',
+                value: 'black torbie mc white, Amberträger'
+            },
+            {
+                title: 'Stammbaum',
+                value: '<a>https://www.pawpeds.com/db/?a=p&ids=3:1577447;2:1393328&g=4&p=nfo&o=elastic </a>'
+            }
+        ],
+        image: {
+            folder: 'Elaine',
+            folderCount: 6,
+            files: []
+        },
+        description: 'Eltern: Weserfjord Cherry, Polyxena´s Ungaro Gold '
+    },
+    {
+        type: types.litter,
+        name: 'Weserfjords Emil',
+        info: [
+            {
+                title: 'Geburtsdatum',
+                value: '01.11.2021'
+            },
+            {
+                title: 'Fellfarbe',
+                value: 'black tabby mc white, Amberträger'
+            },
+            {
+                title: 'Stammbaum',
+                value: '<a> https://www.pawpeds.com/db/?a=p&ids=3:1577447;2:1393328&g=4&p=nfo&o=elastic </a>'
+            }
+        ],
+        image: {
+            folder: 'Emil',
+            folderCount: 6,
+            files: []
+        },
+        description: 'Eltern: Weserfjord Cherry,Polyxena´s Ungaro Gold '
+    },
+    {
+        type: types.litter,
+        name: 'Weserfjords Erwin',
+        info: [
+            {
+                title: 'Geburtsdatum',
+                value: '01.11.2021'
+            },
+            {
+                title: 'Fellfarbe',
+                value: 'black white, Amberträger'
+            },
+            {
+                title: 'Stammbaum',
+                value: '<a> https://www.pawpeds.com/db/?a=p&ids=3:1577447;2:1393328&g=4&p=nfo&o=elastic </a>'
+            }
+        ],
+        image: {
+            folder: 'Erwin',
+            folderCount: 7,
+            files: []
+        },
+        description: 'Eltern: Weserfjord Cherry, Polyxena´s Ungaro Gold '
     }
 ];

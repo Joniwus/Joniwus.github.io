@@ -6,13 +6,13 @@
       </a>
     </div>
     <div class="navbar-link-list__item">
-      <a class="navbar-link-list__link" href="/males">
-        Kastraten
+      <a class="navbar-link-list__link" href="/females">
+        Katzen
       </a>
     </div>
     <div class="navbar-link-list__item">
-      <a class="navbar-link-list__link" href="/females">
-        Katzen
+      <a class="navbar-link-list__link" href="/males">
+        Kastraten
       </a>
     </div>
     <div class="navbar-link-list__item">
@@ -55,14 +55,14 @@ export default {
   width: 100%;
 
   &__item {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
 
     &:first-child {
-      padding-left: 1.5rem;
+      padding-left: 1rem;
     }
 
     &:last-child {
-      padding-right: 1.5rem;
+      padding-right: 1rem;
     }
   }
 
