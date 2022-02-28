@@ -240,29 +240,5 @@ export const cats = [
             files: []
         },
         description: 'Eltern: Weserfjord Cherry,Polyxena´s Ungaro Gold '
-    },
-    {
-        type: types.litter,
-        name: 'Weserfjords Erwin',
-        info: [
-            {
-                title: 'Geburtsdatum',
-                value: '01.11.2021'
-            },
-            {
-                title: 'Fellfarbe',
-                value: 'black white, Amberträger'
-            },
-            {
-                title: 'Stammbaum',
-                value: '<a> https://www.pawpeds.com/db/?a=p&ids=3:1577447;2:1393328&g=4&p=nfo&o=elastic </a>'
-            }
-        ],
-        image: {
-            folder: 'Erwin',
-            folderCount: 7,
-            files: []
-        },
-        description: 'Eltern: Weserfjord Cherry, Polyxena´s Ungaro Gold '
     }
 ];
